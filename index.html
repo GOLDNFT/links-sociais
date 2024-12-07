@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <style>
+    @charset "UTF-8";
+
+    @font-face {
+      font-family: 'variableFont';
+      src: url('fonts/Inter-VariableFont.ttf') format(truetype);
+      font-weight: normal;
+    }
+
+    body{
+      background-color: rgb(20, 20, 20);
+    }
+
+    main{
+      font-family: 'variableFont';
+      max-width: 350px;
+      margin: 12.5% auto 0 auto;
+      text-align: center;
+      padding: 20px;
+      border-radius: 10px;
+      color: white;
+      background-color: rgb(31, 31, 31);
+    }
+
+    img{
+      border-radius: 70px;
+      width: 25%;
+    }
+
+    main h2{
+      margin-bottom: 0px;
+    }
+    p{
+      color: rgb(179, 179, 179);
+    }
+    main strong, #local{
+      color: rgb(194, 212, 126);
+      font-size: 14px;
+      margin-top: 5px;
+    }
+
+    div#container{
+      display: flex;
+      flex-direction: column;
+    }
+
+    button{
+      text-align: center;
+      margin: 8px;
+      padding: 15px;
+      border-radius: 8px;
+      background-color: rgb(51, 51, 51);
+      color: white;
+      border: none;
+      font-weight: bolder;
+      transition: all .5s;
+    }
+    button:hover{
+      background-color: rgb(186, 211, 150);
+      color: rgb(42, 60, 2);
+    }
+    button:active{
+      transition: all 0s;
+      background-color: rgb(196, 248, 42);
+      color: rgb(42, 60, 2);
+    }
+
+    footer{
+      margin: 10px;
+      color: white;
+    }
+
+    .attribution {
+       font-size: 11px; text-align: center; 
+      }
+
+    .attribution a { 
+      color: hsl(228, 45%, 44%); 
+    }
+  </style>
+</head>
+<body>
+<main>
+  <img src="images/avatar-jessica.jpeg" alt="avatar-jessica">
+    <h2>Jessica Randall</h2>
+
+    <p id="local">
+      <strong>London, United Kingdom</strong>
+    </p>
+
+    <p>"Front-end developer and avid reader."</p>
+  
+    <div id="container">
+      <button>GitHub</button>
+      <button>Frontend Mentor</button>
+      <button>LinkedIn</button>
+      <button>Twitter</button>
+      <button>Instagram</button>
+    </div>
+</main>
+<footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+</footer>
+</body>
+</html>
